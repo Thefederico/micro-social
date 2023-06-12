@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "paths": {
+      "@": ["./src"],
+      "@/*": ["./src/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@modules/*": ["./src/modules/*"],
+      "@utils/*": ["./src/utils/*"],
+    }
+  }
+}
